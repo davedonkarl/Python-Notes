@@ -1,0 +1,8 @@
+for i in range(3):
+  print("i:",i)
+  breakpoint() 
+  """
+  Enter p variable_name at the (Pdb) prompt to print its value
+  c: continue execution, only stop when a breakpoint is encountere
+  q: quit and the program being executed is aborted
+  """
