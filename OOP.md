@@ -1,10 +1,12 @@
 There are some basic programming concepts in OOP:
 
-..*The abstraction is simplifying complex reality by modeling classes appropriate to the problem. 
-..*The polymorphism is the process of using an operator or function in different ways for different data input. 
+* The abstraction is simplifying complex reality by modeling classes appropriate to the problem. 
 
-..*The encapsulation hides the implementation details of a class from other objects. 
-..*The inheritance is a way to form new classes using classes that have already been defined.
+...* The polymorphism is the process of using an operator or function in different ways for different data input. 
+
+* The encapsulation hides the implementation details of a class from other objects. 
+
+* The inheritance is a way to form new classes using classes that have already been defined.
 
 An instance is a specific object created from a particular class.
 
