@@ -1,4 +1,4 @@
-**There are some basic programming concepts in OOP:
+**There are some basic programming concepts in OOP:**
 
 * The abstraction is simplifying complex reality by modeling classes appropriate to the problem. 
 
