@@ -20,7 +20,19 @@ A special method called __init__() is used to initialize an object.
 * Attributes are set in the __init__() method.
 Each method in a class definition begins with a reference to the instance object. It is by convention named self. There is nothing special about the self name. 
 The second parameter is the argument. The value is passed during the class initialization.
-	def __init__(self, name):
-		self.name = name
-    
+``` python
+def __init__(self, name):
+  self.name = name
+```
+The attributes can be assigned dynamically, not just during initialization. This is demonstrated by the next example.
+``` python
+class Person:
+    pass
+
+p = Person()
+p.age = 24
+p.name = "Peter"
+
+print("{0} is {1} years old".format(p.name, p.age))
+```
     
