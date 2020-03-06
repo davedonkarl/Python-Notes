@@ -1,4 +1,4 @@
-#### Some basic programming concepts in OOP
+### Some basic programming concepts in OOP
 
 * The abstraction is simplifying complex reality by modeling classes appropriate to the problem. 
 
@@ -49,7 +49,7 @@ Unbounded method call. The instance object is explicitly given to the getName() 
 ```python
 print(Methods.getName(m))
 ```
-#### Python inheritance
+### Python inheritance
 Inheritance is a way to form new classes using classes that have already been defined. The newly formed classes are called derived classes, the classes that we derive from are called base classes.  The derived classes (descendants) override or extend the functionality of base classes (ancestors).
 ```python
 # In this example, we have two classes: Animal and Dog. The Animal is the base class, the Dog is the derived class. The derived class inherits the functionality of the base class. It is shown by the eat() method. The derived class modifies existing behaviour of the base class, shown by the whoAmI() method. Finally, the derived class extends the functionality of the base class, by defining a new bark() method.
@@ -84,7 +84,7 @@ d.whoAmI()
 d.eat()
 d.bark()
 ```
-#### Python polymorphism
+### Python polymorphism
 Polymorphism is the process of using an operator or function in different ways for different data input. In practical terms, polymorphism means that if class B inherits from class A, it doesn't have to inherit everything about class A; it can do some of the things that class A does differently. Polymorphism is mostly used when dealing with inheritance.
 ```python
 # polymorphism.py
